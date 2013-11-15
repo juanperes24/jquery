@@ -1,0 +1,336 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dia",
+				"array_diff_assoc"
+			],
+			[
+				"cli",
+				"cliCodigo"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"var",
+				"variable"
+			],
+			[
+				"h",
+				"h1	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Alex/Downloads/ATT00040.txt",
+		"/C/xampp-portable/htdocs/jquery/module/Testajax/view/testajax/skeleton/formfec.phtml",
+		"/C/xampp-portable/htdocs/jquery/module/Testajax/src/Testajax/Controller/EjemplosController.php",
+		"/C/xampp-portable/htdocs/jquery/module/Testajax/view/testajax/ejemplos/form.phtml",
+		"/C/xampp-portable/htdocs/jquery/module/Testajax/view/testajax/ejemplos/formfec.phtml",
+		"/C/Users/Alex/AppData/Local/Temp/Rar$DI00.520/inicio.php",
+		"/C/xampp-portable/htdocs/jquery/module/Application/view/application/index/index.phtml",
+		"/C/xampp-portable/htdocs/jquery/module/Testajax/view/testajax/ejemplos/index.phtml",
+		"/C/xampp-portable/htdocs/jqueries/index.html",
+		"/C/xampp-portable/htdocs/jquery/module/Testajax/view/testajax/skeleton/showform.phtml",
+		"/C/xampp-portable/htdocs/jquery/module/Testajax/config/module.config.php",
+		"/C/xampp-portable/htdocs/jquery/module/Testajax/src/Testajax/Controller/SkeletonController.php",
+		"/C/xampp-portable/htdocs/jquery/module/Testajax/view/testajax/skeleton/index.phtml",
+		"/C/xampp-portable/htdocs/jqueries/Nuevo documento de texto.txt",
+		"/C/xampp-portable/htdocs/jquery/config/application.config.php",
+		"/C/xampp-portable/htdocs/jquery/module/Application/src/Model/TestEntity.php",
+		"/C/xampp-portable/htdocs/jquery/module/Testajax/src/Testajax/Model/TestEntity.php",
+		"/C/xampp-portable/htdocs/jquery/module/Testajax/src/TestAjax/Controller/SkeletonController.php",
+		"/C/xampp-portable/htdocs/jquery/public/index.php",
+		"/C/xampp-portable/htdocs/jquery/module/TestAjax/src/TestAjax/Controller/SkeletonController.php",
+		"/C/xampp-portable/htdocs/jquery/public/js/ajaxform.js",
+		"/C/xampp-portable/htdocs/jquery/module/Testajax/Module.php",
+		"/C/xampp-portable/htdocs/jquery/module/TestAjax/config/module.config.php",
+		"/C/xampp-portable/htdocs/jquery/composer.json",
+		"/C/xampp-portable/htdocs/jquery/public/js/ajaxform-up.js",
+		"/C/xampp-portable/htdocs/jquery/module/Application/view/layout/layout.phtml",
+		"/C/xampp-portable/htdocs/jquery/module/TestAjax/Module.php",
+		"/C/xampp-portable/htdocs/jquery/module/TestAjax/view/testAjax/skeleton/index.phtml",
+		"/C/xampp-portable/htdocs/jquery/module/Application/config/module.config.php",
+		"/C/Users/Alex/Desktop/Nueva carpeta/videos/zf2/clase_12/module/Application/view/application/formulario/registro.phtml",
+		"/C/Users/Alex/Desktop/Nueva carpeta/Win XP sp2/SERIAL.TXT",
+		"/C/Users/Alex/Desktop/DATOS.txt",
+		"/C/Users/Alex/Desktop/Nueva carpeta/videos/zf2/clase_12/module/Application/src/Application/Controller/FormularioController.php",
+		"/Z/Usuarios/Alex/Instalar/Notas de la instalacion.txt",
+		"/C/Users/Alex/Desktop/Nueva carpeta/videos/zf2/clase_03/module/Application/src/Application/Controller/IndexController.php",
+		"/C/xampp-portable/htdocs/inf/module/Informes/config/module.config.php",
+		"/C/xampp-portable/htdocs/inf/config/autoload/local.php",
+		"/C/xampp-portable/htdocs/inf/config/autoload/global.php",
+		"/C/xampp-portable/htdocs/annotation/module/Application/src/Application/Controller/IndexController.php",
+		"/C/xampp-portable/htdocs/annotation/composer.json",
+		"/C/xampp-portable/htdocs/annotation/module/Application/src/Application/Model/Student.php",
+		"/C/xampp-portable/htdocs/annotation/.htaccess",
+		"/C/xampp-portable/htdocs/annotation/module/Application/view/layout/layout.phtml",
+		"/C/xampp-portable/htdocs/annotation/Nuevo documento de texto.txt",
+		"/C/xampp-portable/htdocs/barra/module/Barras/src/Barras/Entity/Mantencion.php",
+		"/C/xampp-portable/htdocs/barra/module/Barras/src/Barras/Entity/Producto.php",
+		"/C/xampp-portable/htdocs/annotation/index.php",
+		"/C/xampp-portable/htdocs/TestAjax-master/public/index.php",
+		"/C/xampp-portable/htdocs/barra/module/Barras/view/barras/skeleton/index.phtml",
+		"/C/xampp-portable/htdocs/barra/module/Barras/view/barras/skeleton/vermantencion.phtml",
+		"/C/xampp-portable/htdocs/gp/lineas_utiles.txt",
+		"/C/xampp-portable/htdocs/inf/mapeador",
+		"/C/xampp-portable/htdocs/barra/module/Barras/config/module.config.php",
+		"/C/xampp-portable/htdocs/barra/config/application.config.php",
+		"/C/xampp-portable/htdocs/barra/config/autoload/global.php",
+		"/C/xampp-portable/htdocs/barra/config/autoload/local.php",
+		"/C/Users/Alex/Desktop/Nueva carpeta/videos/zf2/clase_11/module/Application/view/application/index/ver.phtml",
+		"/C/xampp-portable/htdocs/barra/module/Barras/src/Barras/Controller/SkeletonController.php",
+		"/C/xampp-portable/htdocs/barra/module/Application/src/Application/Controller/IndexController.php",
+		"/C/xampp-portable/htdocs/barra/module/Application/view/application/index/index.phtml",
+		"/C/xampp-portable/htdocs/inf/module/Barras/config/module.config.php",
+		"/C/xampp-portable/htdocs/barra/module/Application/config/module.config.php",
+		"/C/xampp-portable/htdocs/inf/module/Application/config/module.config.php",
+		"/C/xampp-portable/htdocs/barra/module/Application/view/layout/layout.phtml",
+		"/C/xampp-portable/htdocs/inf/module/Barras/src/Barras/Controller/SkeletonController.php",
+		"/C/xampp-portable/htdocs/inf/module/Barras/view/barras/skeleton/index.phtml",
+		"/C/Users/Alex/Desktop/Nueva carpeta/videos/zf2/clase_4/module/Application/src/Application/Controller/IndexController.php",
+		"/C/xampp-portable/htdocs/inf/config/application.config.php",
+		"/C/Users/Alex/Desktop/Sybase PowerDesigner v16.1.0.3637/Instrucciones.txt",
+		"/C/xampp-portable/htdocs/barra/necesario/crebas.sql",
+		"/C/Users/Alex/Desktop/Sybase PowerDesigner v16.1.0.3637/Importante.txt",
+		"/C/Users/Alex/Desktop/Nueva carpeta/videos/zf2/clase_4/module/Application/config/module.config.php",
+		"/C/xampp-portable/htdocs/inf/module/Informes/src/Informes/Controller/VentasController.php",
+		"/C/xampp-portable/htdocs/inf/module/Barras/Module.php",
+		"/C/xampp-portable/htdocs/inf/module/Informes/src/Informes/Controller/IndexController.php",
+		"/C/Users/Alex/Desktop/Nueva carpeta/--------------------------------------------------",
+		"/C/Users/Alex/Desktop/SanAuth-master/src/SanAuth/Model/MyAuthStorage.php",
+		"/C/xampp-portable/htdocs/inf/module/Maestros/view/maestros/estnota/index.phtml",
+		"/C/xampp-portable/htdocs/inf/module/Maestros/view/maestros/estnota/editar.phtml",
+		"/C/xampp-portable/htdocs/inf/module/Maestros/src/Maestros/Controller/EstnotaController.php",
+		"/C/xampp-portable/htdocs/inf/composer.lock",
+		"/C/Users/Alex/Desktop/SanAuth-master/Module.php",
+		"/C/Users/Alex/Desktop/SanAuth-master/src/SanAuth/Controller/AuthController.php",
+		"/C/xampp-portable/htdocs/inf/module/Informes/Module.php",
+		"/C/xampp-portable/htdocs/inf/module/Application/Module.php",
+		"/C/Users/Alex/Desktop/SanAuth-master/view/san-auth/auth/login.phtml",
+		"/C/Users/Alex/Desktop/SanAuth-master/README.md",
+		"/C/Users/Alex/Desktop/SanAuth-master/autoload_register.php",
+		"/C/Users/Alex/Desktop/SanAuth-master/autoload_function.php",
+		"/C/Users/Alex/Desktop/SanAuth-master/autoload_classmap.php",
+		"/C/Users/Alex/Desktop/SanAuth-master/config/module.config.php",
+		"/C/Users/Alex/Desktop/SanAuth-master/src/SanAuth/Model/User.php",
+		"/C/Users/Alex/Desktop/SanAuth-master/src/SanAuth/Controller/SuccessController.php",
+		"/C/xampp-portable/htdocs/inf/module/Informes/view/informes/ventas/porfecha.phtml",
+		"/C/xampp-portable/htdocs/inf/module/Informes/view/informes/ventas/index.phtml",
+		"/C/xampp-portable/htdocs/inf/module/Application/view/application/index/index.phtml",
+		"/C/Modelos/hong-kong/client.exe.config",
+		"/C/Users/Alex/Desktop/Nueva carpeta/videos/zf2/clase_12/module/Application/src/Application/Modelo/Entity/Usuarios.php",
+		"/C/xampp-portable/htdocs/inf/module/Informes/view/layout/layout.phtml",
+		"/C/xampp-portable/htdocs/gp/module/Maestros/view/maestros/estnota/eliminar.phtml",
+		"/C/xampp-portable/htdocs/gp/module/Maestros/src/Maestros/Controller/EstnotaController.php",
+		"/C/xampp-portable/htdocs/gp/module/Maestros/view/maestros/estnota/index.phtml",
+		"/C/xampp-portable/htdocs/daypicker/index.html",
+		"/C/xampp-portable/htdocs/calendario/index.php",
+		"/C/xampp-portable/htdocs/inf/module/Informes/view/informes/ventas/diaria.phtml",
+		"/C/xampp-portable/htdocs/inf/module/Informes/src/Informes/Entity/T0120.php",
+		"/C/xampp-portable/htdocs/inf/module/Informes/src/Informes/Entity/T0094.php",
+		"/C/xampp-portable/htdocs/inf/module/Informes/src/Informes/Entity/T0119.php",
+		"/C/xampp-portable/htdocs/inf/module/Informes/src/Informes/Entity/Gcliente.php",
+		"/C/xampp-portable/htdocs/inf/module/Informes/src/Informes/Entity/T0128.php",
+		"/C/Users/Alex/Desktop/dump/infacw_t0120.sql",
+		"/C/xampp-portable/htdocs/inf/module/Maestros/src/Maestros/Entity/Estnot.php",
+		"/C/xampp-portable/htdocs/zftutordoctrine/module/Application/src/Application/Controller/IndexController.php",
+		"/C/xampp-portable/htdocs/inf/module/Maestros/src/Maestros/Entity/Gcliente.php",
+		"/C/xampp-portable/htdocs/inf/module/Maestros/src/Maestros/Entity/T0025.php",
+		"/C/xampp-portable/htdocs/inf/module/Maestros/src/Maestros/Entity/T0094.php",
+		"/C/xampp-portable/htdocs/inf/module/Maestros/src/Maestros/Entity/T0119.php",
+		"/C/xampp-portable/htdocs/inf/module/Maestros/src/Maestros/Entity/T0120.php",
+		"/C/xampp-portable/htdocs/inf/module/Maestros/src/Maestros/Entity/T0128.php",
+		"/C/xampp-portable/htdocs/inf/module/Maestros/src/Maestros/Entity/Gclient1.php",
+		"/C/xampp-portable/htdocs/inf/module/Maestros/src/Maestros/Controller/MenuController.php",
+		"/C/xampp-portable/htdocs/inf/module/Maestros/config/module.config.php",
+		"/C/Users/Alex/Desktop/Nueva carpeta/videos/zf2/clase_11/module/Application/src/Application/Modelo/Entity/Usuarios.php",
+		"/C/Users/Alex/Desktop/Nueva carpeta/videos/zf2/clase_11/module/Application/src/Application/Controller/IndexController.php",
+		"/C/xampp-portable/htdocs/gp/module/Informes/src/Informes/Controller/VentasController.php",
+		"/C/xampp-portable/htdocs/gp/module/Informes/view/informes/ventas/index.phtml",
+		"/C/xampp-portable/htdocs/gp/module/Informes/view/informes/index/index.phtml",
+		"/C/xampp-portable/htdocs/inf/module/Informes/src/Informes/Entity/T0025.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\xampp-portable\\htdocs\\PaginaSoftwarePlus"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"/**\n",
+			"<?",
+			"revisa",
+			"date",
+			"date picker",
+			"   \n",
+			"tipo",
+			"clave",
+			"par",
+			"nonumero",
+			"facfec",
+			"doc",
+			"fac",
+			"Application",
+			"driver",
+			"AllowOverride ",
+			"\"minimum-stability\": ",
+			"minimum-stability",
+			".\"",
+			">",
+			"dropdown-menu",
+			"built whit",
+			"bootswatch",
+			"active",
+			"navs",
+			"nvas",
+			"tabs",
+			"usuario",
+			"getUsuarios",
+			"<?",
+			"Sanauth",
+			"sanaut",
+			"virtua",
+			"post",
+			"CL",
+			"content",
+			"vhost",
+			".htaccess",
+			"<iframe>*</iframe> ",
+			"<iframe> ",
+			"http://a5",
+			"<iframe",
+			"Redirector-H3",
+			"iframe",
+			"jahdivideoners",
+			"jahdivideoners.su",
+			"segment"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"controller",
+				"/C/xampp-portable/htdocs/clase_3/module/Application/src/Application/Controller/TrabajoController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true
+}

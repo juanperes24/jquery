@@ -1,0 +1,67 @@
+<!-- css -->
+<!-- the custom UI is based on jQueryUI theme you've downloaded -->
+<?php $this->headLink()
+            ->prependStylesheet($this->basePath() . '/js/jqueryUI/themes/custom_ui/jquery-ui-1.8.24.custom.css')       
+            ->prependStylesheet($this->basePath() . '/js/themes/smoothness/jquery-ui.css')
+            ; 
+?>
+<!-- Js -->            
+<?php  $this->headScript()             
+            ->appendFile($this->basePath() . '/js/ui/jquery-ui.js')                        
+            ; 
+?>
+
+<script>
+$(function () {
+	$(function () {
+		$.datepicker.setDefaults($.datepicker.regional["es"]);
+		$("#datepicker").datepicker({
+			firstDay: 1
+	});
+});
+
+$("#dialog").dialog({
+	autoOpen: false,
+	modal: true,
+	buttons: {
+		"Aceptar": function () {
+			var texto1 = document.getElementById('nombre').firstChild;
+			var newText1 = document.createTextNode(el_nombre.value);
+			texto1.parentNode.replaceChild(newText1, texto1);
+
+			var texto3 = document.getElementById('nombre2').firstChild;
+			var newText1 = document.createTextNode(el_nombre.value);
+			texto3.parentNode.replaceChild(newText1, texto3);
+
+			var texto2 = document.getElementById('fecha').firstChild;
+			var newText2 = document.createTextNode(datepicker.value);
+			texto2.parentNode.replaceChild(newText2, texto2);
+
+			$(this).dialog("close");
+		},
+		"Cerrar": function () {
+			$(this).dialog("close");
+		}
+	}
+});
+$("#abrir").button().click(function () {
+	el_nombre.value = document.getElementById('nombre').firstChild.nodeValue;
+	datepicker.value = document.getElementById('fecha').firstChild.nodeValue;
+	$("#dialog").dialog("option", "width", 600);
+	$("#dialog").dialog("option", "height", 300);
+	$("#dialog").dialog("option", "resizable", false);
+	$("#dialog").dialog("open");
+});
+});
+</script>
+
+<div id="dialog" title="Formulario simple">
+	Nombre:<input type="text" id="el_nombre" value="" /><br />
+	Fecha:<input type="text" id="datepicker" />
+</div>
+
+Nombre: <strong id="nombre">Ana</strong><br />
+<button id="nombre2">Ana</button>
+Fecha: <strong id="fecha"><?php echo date("d/m/Y"); ?></strong><br />
+<hr />
+<button id="abrir">Abrir diálogo</button>

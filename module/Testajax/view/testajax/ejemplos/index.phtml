@@ -1,0 +1,45 @@
+<!-- css -->
+<!-- the custom UI is based on jQueryUI theme you've downloaded -->
+<?php $this->headLink()
+            ->prependStylesheet($this->basePath() . '/js/jqueryUI/themes/custom_ui/jquery-ui-1.8.24.custom.css')
+            ->prependStylesheet($this->basePath() . '/js/themes/base/jquery-ui.css')            
+            ; 
+?>
+<!-- Js -->            
+<?php  $this->headScript()                         
+            ->appendFile($this->basePath() . '/js/ui/jquery-ui.js')                        
+            ; 
+?>
+
+<script>
+$(function () {
+
+$("#dialog").dialog({	
+	autoOpen: false,
+	modal: true,
+	buttons: {
+		"abrir": function () {
+		$(this).dialog("open");},
+		"Cerrar": function () {
+		$(this).dialog("close");}
+
+			}
+	});
+
+$("#abrir").button().click(function () {
+	$("#dialog").dialog("option", "width", 600);
+	$("#dialog").dialog("option", "height", 300);
+	$("#dialog").dialog("option", "resizable", false);
+	$("#dialog").dialog("open");
+});
+
+});
+</script>
+
+
+<div id="dialog" title="Dialogo básico!!">
+	<p>blablabla.</p>
+	<p>esto es otra </p>
+</div>
+
+<button id="abrir">Abrir diálogo</button>

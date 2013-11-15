@@ -1,0 +1,49 @@
+<!-- css -->
+<!-- the custom UI is based on jQueryUI theme you've downloaded -->
+<?php $this->headLink()
+            ->prependStylesheet($this->basePath() . '/js/jqueryUI/themes/custom_ui/jquery-ui-1.8.24.custom.css')         
+            ->prependStylesheet($this->basePath() . '/js/themes/smoothness/jquery-ui.css')
+            ; 
+?>
+<!-- Js -->            
+<?php  $this->headScript()                       
+            ->appendFile($this->basePath() . '/js/ui/jquery-ui.js')                        
+            ; 
+?>
+
+<script>
+$(function () {
+	$("#dialog").dialog({
+		autoOpen: false,
+		modal: true,
+		buttons: {
+		"Aceptar": function () {
+			nombre.value = el_nombre.value;
+			$(this).dialog("close");
+		},
+		"Cerrar": function () {
+			$(this).dialog("close");
+		}
+	}
+});
+
+$("#abrir")
+.button()
+.click(function () {
+	el_nombre.value = nombre.value;
+		$("#dialog").dialog("option", "width", 600);
+		$("#dialog").dialog("option", "height", 300);
+		$("#dialog").dialog("option", "resizable", false);
+		$("#dialog").dialog("open");
+	});
+});
+</script>
+
+Diálogo:<input type="text" id="nombre" value="" />
+
+<div id="dialog" title="Dialogo básico">
+	Nombre:<input type="text" id="el_nombre" value="" />
+</div>
+
+
+<button id="abrir">Abrir diálogo</button>
